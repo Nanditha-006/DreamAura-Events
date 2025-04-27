@@ -39,7 +39,7 @@ export default function Header4({ scroll, isMobileMenu, handleMobileMenu, isSear
 																		<Link className="vl-btn4" href="/index2"><span className="demo">View Demo</span></Link>
 																	</div>
 																	<div className="homemenu-text">
-																		<Link href="/index2">Eventify-Homepage 02</Link>
+																		<Link href="/index2">Eventify-Homepage 2</Link>
 																	</div>
 																</div>
 																<div className="homemenu-thumb">

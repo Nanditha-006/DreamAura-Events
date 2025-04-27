@@ -17,7 +17,7 @@ export default function Header9({ scroll, isMobileMenu, handleMobileMenu, isSear
 											</li>
 											<li>
 												<Link href="/tel:(234)345-4574"><img src="/assets/img/icons/phn1.svg" alt="" />(234)
-													345-4574</Link>
+													345-4</Link>
 											</li>
 										</ul>
 									</div>

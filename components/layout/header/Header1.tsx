@@ -11,12 +11,12 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isSear
 							<div className="col-lg-12">
 								<div className="header-elements">
 									<div className="site-logo">
-										<Link href="/"><img src="/assets/img/logo/logo1.png" alt="" /></Link>
+										<Link href="/"><img src="/assets/img/logo/logo1.png" alt="" /> </Link>
 									</div>
 									<div className="main-menu">
 										<ul>
 											<li>
-												<Link href="/#">Home <i className="fa-solid fa-angle-down" /></Link>
+												<Link href="/#">HOME <i className="fa-solid fa-angle-down" /></Link>
 												<div className="tp-submenu">
 													<div className="row">
 														<div className="col-lg-12">

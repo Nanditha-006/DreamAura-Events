@@ -10,9 +10,13 @@ export default function Header3({ scroll, isMobileMenu, handleMobileMenu, isSear
 							<div className="col-lg-12">
 								<div className="menu-top-area">
 									<div className="top-menu-area">
-										<p>Are you Ready to Enenify Conferences?<Link href="/#">Buy Ticket</Link></p>
+										{/* <p>Are you Ready to Enenify Conferences?<Link href="/#">Buy Ticket</Link></p> */}
 										<ul>
 											<li>
+
+
+
+
 												<Link href="/mailto:eventifyconference@.com"><img src="/assets/img/icons/mail1.svg" alt="" />eventifyconference@.com <span> | </span></Link>
 											</li>
 											<li>
