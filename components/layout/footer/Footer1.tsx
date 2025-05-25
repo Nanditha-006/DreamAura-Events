@@ -9,23 +9,24 @@ export default function Footer1() {
 					<div className="row">
 						<div className="col-lg-3 col-md-6">
 							<div className="footer-logo-area">
-								<img src="/assets/img/logo/logo2.png" alt="" />
+								<img src="/assets/img/logo/logo2.png" alt="Dream Aura Events Logo" />
 								<div className="space16" />
-								<p>We are committed to creating a platform where business leaders, innovators, and professionals
-									can come together to exchange ideas</p>
+								<p>
+									At Dream Aura Events, we create magical celebrations—weddings, birthdays, anniversaries, and more. Let us turn your dreams into unforgettable memories.
+								</p>
 								<div className="space24" />
 								<ul>
 									<li>
-										<Link href="/#"><i className="fa-brands fa-facebook-f" /></Link>
+										<Link href="https://facebook.com/dreamaura.events" target="_blank"><i className="fa-brands fa-facebook-f" /></Link>
 									</li>
 									<li>
-										<Link href="/#"><i className="fa-brands fa-instagram" /></Link>
+										<Link href="https://instagram.com/dreamaura.events" target="_blank"><i className="fa-brands fa-instagram" /></Link>
 									</li>
 									<li>
-										<Link href="/#"><i className="fa-brands fa-linkedin-in" /></Link>
+										<Link href="https://linkedin.com/company/dreamauraevents" target="_blank"><i className="fa-brands fa-linkedin-in" /></Link>
 									</li>
 									<li>
-										<Link href="/#" className="m-0"><i className="fa-brands fa-pinterest-p" /></Link>
+										<Link href="https://pinterest.com/dreamauraevents" target="_blank" className="m-0"><i className="fa-brands fa-pinterest-p" /></Link>
 									</li>
 								</ul>
 							</div>
@@ -35,9 +36,9 @@ export default function Footer1() {
 								<h3>Quick Links</h3>
 								<ul>
 									<li><Link href="/about">About Us</Link></li>
-									<li><Link href="/blog">Our Blogs</Link></li>
-									<li><Link href="/event">Event Listing</Link></li>
-									<li><Link href="/pricing-plan">Pricing Plan</Link></li>
+									<li><Link href="/gallery">Gallery</Link></li>
+									<li><Link href="/event-schedule">Event Schedule</Link></li>
+									<li><Link href="/packages">Packages</Link></li>
 									<li><Link href="/contact">Contact Us</Link></li>
 								</ul>
 							</div>
@@ -47,18 +48,16 @@ export default function Footer1() {
 								<h3>Contact Us</h3>
 								<ul>
 									<li>
-										<Link href="/tel:+11234567890"><img src="/assets/img/icons/phn1.svg" alt="" />+1 123 456
-											7890</Link>
+										<Link href="tel:+919876543210"><img src="/assets/img/icons/phn1.svg" alt="Phone" />+91 98765 43210</Link>
 									</li>
 									<li>
-										<Link href="/#"><img src="/assets/img/icons/location1.svg" alt="" />Secret Location In The
-											UK</Link>
+										<Link href="#"><img src="/assets/img/icons/location1.svg" alt="Location" />Chennai, India</Link>
 									</li>
 									<li>
-										<Link href="/mailto:eventifyevent@gmail.com"><img src="/assets/img/icons/mail1.svg" alt="" />eventifyevent@gmail.com</Link>
+										<Link href="mailto:contact@dreamauraevents.com"><img src="/assets/img/icons/mail1.svg" alt="Email" />contact@dreamauraevents.com</Link>
 									</li>
 									<li>
-										<Link href="/#"> <img src="/assets/img/icons/world1.svg" alt="" />eventifyevent.com</Link>
+										<Link href="https://dreamauraevents.com" target="_blank"> <img src="/assets/img/icons/world1.svg" alt="Website" />dreamauraevents.com</Link>
 									</li>
 								</ul>
 							</div>
@@ -68,54 +67,16 @@ export default function Footer1() {
 								<h3>Our Recent Event Gallery</h3>
 								<div className="space12" />
 								<div className="row">
-									<div className="col-lg-4 col-md-4 col-4">
-										<div className="img1">
-											<img src="/assets/img/all-images/footer/footer-img1.png" alt="" />
-											<div className="icons">
-												<Link href="/#"><i className="fa-brands fa-instagram" /></Link>
+									{[1,2,3,4,5,6].map(num => (
+										<div className="col-lg-4 col-md-4 col-4" key={num}>
+											<div className="img1">
+												<img src={`/assets/img/all-images/footer/footer-img${num}.png`} alt={`Event Gallery ${num}`} />
+												<div className="icons">
+													<Link href="https://instagram.com/dreamaura.events" target="_blank"><i className="fa-brands fa-instagram" /></Link>
+												</div>
 											</div>
 										</div>
-									</div>
-									<div className="col-lg-4 col-md-4 col-4">
-										<div className="img1">
-											<img src="/assets/img/all-images/footer/footer-img2.png" alt="" />
-											<div className="icons">
-												<Link href="/#"><i className="fa-brands fa-instagram" /></Link>
-											</div>
-										</div>
-									</div>
-									<div className="col-lg-4 col-md-4 col-4">
-										<div className="img1">
-											<img src="/assets/img/all-images/footer/footer-img3.png" alt="" />
-											<div className="icons">
-												<Link href="/#"><i className="fa-brands fa-instagram" /></Link>
-											</div>
-										</div>
-									</div>
-									<div className="col-lg-4 col-md-4 col-4">
-										<div className="img1">
-											<img src="/assets/img/all-images/footer/footer-img4.png" alt="" />
-											<div className="icons">
-												<Link href="/#"><i className="fa-brands fa-instagram" /></Link>
-											</div>
-										</div>
-									</div>
-									<div className="col-lg-4 col-md-4 col-4">
-										<div className="img1">
-											<img src="/assets/img/all-images/footer/footer-img5.png" alt="" />
-											<div className="icons">
-												<Link href="/#"><i className="fa-brands fa-instagram" /></Link>
-											</div>
-										</div>
-									</div>
-									<div className="col-lg-4 col-md-4 col-4">
-										<div className="img1">
-											<img src="/assets/img/all-images/footer/footer-img6.png" alt="" />
-											<div className="icons">
-												<Link href="/#"><i className="fa-brands fa-instagram" /></Link>
-											</div>
-										</div>
-									</div>
+									))}
 								</div>
 							</div>
 						</div>
@@ -124,7 +85,7 @@ export default function Footer1() {
 					<div className="row">
 						<div className="col-lg-12">
 							<div className="copyright">
-								<p>© Copyright {new Date().getFullYear()} -Eventify. All Right Reserved</p>
+								<p>© Copyright {new Date().getFullYear()} - Dream Aura Events. All Rights Reserved</p>
 							</div>
 						</div>
 					</div>

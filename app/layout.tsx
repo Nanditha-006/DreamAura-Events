@@ -30,8 +30,8 @@ const grotesk = Space_Grotesk({
 })
 
 export const metadata: Metadata = {
-	title: "DREAM AURA EVENTS ",
-	description: "GIVING LIFE TO YOUR MEMORIES",
+	title: "Dream Aura Events | Giving Life to Your Memories",
+	description: "Dream Aura Events is your trusted Indian event partner for weddings, birthdays, anniversaries, and corporate events. Based in Chennai, we bring your celebrations to life with creativity and care.",
 }
 
 export default function RootLayout({
@@ -41,7 +41,9 @@ export default function RootLayout({
 }>) {
 	return (
 		<html lang="en">
-			<body className={`${figtree.variable} ${grotesk.variable}`}>{children}</body>
+			<body className={`${figtree.variable} ${grotesk.variable}`}>
+				{children}
+			</body>
 		</html>
 	)
 }
