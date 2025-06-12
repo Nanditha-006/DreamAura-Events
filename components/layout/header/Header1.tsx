@@ -12,8 +12,15 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isSear
 								<div className="header-elements">
 									<div className="site-logo">
   <Link href="/">
-    <span style={{ fontWeight: 2000, fontSize: 70, fontFamily: "Poppins"
-		, color: "#fff", letterSpacing: 1 }}>Dream Aura Events</span>
+    <span style={{
+      fontWeight: 900,
+      fontSize: 70,
+      fontFamily: "Arial, sans-serif",
+      color: "#fff",
+      letterSpacing: 1
+    }}>
+      Dream Aura Events
+    </span>
   </Link>
 </div>
 									<div className="main-menu">

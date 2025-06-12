@@ -79,11 +79,7 @@ export default function Section4() {
                             </div>
                         </div>
                     </div>
-                    <div className="mapouter">
-                        <div className="gmap_canvas">
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3890.9791439397407!2d80.2209770750487!3d13.08268098724656!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5265d6e7e6e5e1%3A0x7e4e6e6e6e6e6e6e!2sChennai%2C%20Tamil%20Nadu%2C%20India!5e0!3m2!1sen!2sin!4v1704088968016!5m2!1sen!2sin" width={600} height={450} style={{ border: 0 }} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" />
-                        </div>
-                    </div>
+                    {/* Google Map removed */}
                 </div>
             </div>
         </>

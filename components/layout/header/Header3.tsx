@@ -44,34 +44,15 @@ export default function Header3({ scroll, isMobileMenu, handleMobileMenu, isSear
                                         </ul>
                                     </div>
                                     <div className="btn-area">
-                                        <div className="search-icon header__search header-search-btn" onClick={handleSearch}>
-                                            <a><img src="/assets/img/icons/search1.svg" alt="Search Icon" /></a>
-                                        </div>
                                         <ul>
                                             <li>
-                                                <Link href="https://facebook.com/dreamauraevents"><i className="fa-brands fa-facebook-f" /></Link>
-                                            </li>
-                                            <li>
-                                                <Link href="https://instagram.com/dreamauraevents"><i className="fa-brands fa-instagram" /></Link>
-                                            </li>
-                                            <li>
-                                                <Link href="https://linkedin.com/company/dreamauraevents"><i className="fa-brands fa-linkedin-in" /></Link>
-                                            </li>
-                                            <li>
-                                                <Link href="https://pinterest.com/dreamauraevents" className="m-0"><i className="fa-brands fa-pinterest-p" /></Link>
+                                                <Link href="https://instagram.com/dreamauraevents">
+                                                    <i className="fa-brands fa-instagram" />
+                                                </Link>
                                             </li>
                                         </ul>
                                     </div>
-                                    <div className={`header-search-form-wrapper ${isSearch ? 'open' : ''}`}>
-                                        <div className="tx-search-close tx-close" onClick={handleSearch}><i className="fa-solid fa-xmark" /></div>
-                                        <div className="header-search-container">
-                                            <form role="search" className="search-form">
-                                                <input type="search" className="search-field" placeholder="Search …" name="s" />
-                                                <button type="submit" className="search-submit"><img src="/assets/img/icons/search1.svg" alt="Search Icon" /></button>
-                                            </form>
-                                        </div>
-                                    </div>
-                                    {isSearch && <div className="body-overlay active" onClick={handleSearch} />}
+                                    {/* Removed search bar, facebook, linkedin, pinterest */}
                                 </div>
                             </div>
                         </div>
