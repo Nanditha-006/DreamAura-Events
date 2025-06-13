@@ -20,67 +20,121 @@ export default function Section8() {
                     </div>
                 </div>
                 <div className="space60" />
-                <div className="contact10-bg-section">
-                    <div className="container">
-                        <div className="row">
-                            <div className="col-lg-6">
-                                <div className="space48" />
-                                <div className="row">
-                                    <div className="col-lg-6 col-md-6">
-                                        <div className="contact-boxarea" data-aos="zoom-in" data-aos-duration={900}>
-                                            <div className="icons">
-                                                <img src="/assets/img/icons/mail1.svg" alt="Email" />
-                                            </div>
-                                            <div className="text">
-                                                <h5>Our Email</h5>
-                                                <div className="space14" />
-                                                <Link href="mailto:contact@dreamauraevents.com">contact@dreamauraevents.com</Link>
-                                            </div>
-                                        </div>
-                                        <div className="space18" />
-                                        <div className="contact-boxarea" data-aos="zoom-in" data-aos-duration={1000}>
-                                            <div className="icons">
-                                                <img src="/assets/img/icons/location1.svg" alt="Location" />
-                                            </div>
-                                            <div className="text">
-                                                <h5>Our Location</h5>
-                                                <div className="space14" />
-                                                <Link href="#">Chennai, India</Link>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className="col-lg-6 col-md-6">
-                                        <div className="space20 d-md-none d-block" />
-                                        <div className="contact-boxarea" data-aos="zoom-in" data-aos-duration={1000}>
-                                            <div className="icons">
-                                                <img src="/assets/img/icons/phn1.svg" alt="Phone" />
-                                            </div>
-                                            <div className="text">
-                                                <h5>Call/Message</h5>
-                                                <div className="space14" />
-                                                <Link href="tel:+919876543210">+91 98765 43210</Link>
-                                            </div>
-                                        </div>
-                                        <div className="space18" />
-                                        <div className="contact-boxarea" data-aos="zoom-in" data-aos-duration={1200}>
-                                            <div className="icons">
-                                                <img src="/assets/img/icons/instagram.svg" alt="Instagram" />
-                                            </div>
-                                            <div className="text">
-                                                <h5>Instagram</h5>
-                                                <div className="space14" />
-                                                <Link href="https://instagram.com/dreamaura.events" target="_blank">dreamaura.events</Link>
-                                            </div>
-                                        </div>
-                                    </div>
+                <div
+                    className="contact10-bg-section"
+                    style={{
+                        background: "#fff",
+                        borderRadius: 16,
+                        boxShadow: "0 2px 24px rgba(0,0,0,0.07)",
+                        maxWidth: 1100,
+                        margin: "40px auto 0 auto",
+                        padding: 32
+                    }}
+                >
+                    <div className="row g-4">
+                        <div className="col-lg-6 col-md-6">
+                            <div
+                                className="contact-boxarea d-flex align-items-left"
+                                style={{
+                                    minHeight: 110,
+                                    width: "100%",
+                                    background: "#fff",
+                                    borderRadius: 12,
+                                    boxShadow: "0 1px 8px rgba(0,0,0,0.04)",
+                                    padding: "24px 32px"
+                                }}
+                            >
+                                <div className="icons me-3">
+                                    <img src="/assets/img/icons/mail1.svg" alt="Email" />
                                 </div>
-                                <div className="space48" />
+                                <div className="text">
+                                    <h5 style={{ marginBottom: 8 }}>GMAIL</h5>
+                                    <Link href="mailto:@dreamauraevents.com" style={{ wordBreak: "break-all" }}>
+                                        dreamauraevent@
+                                    </Link>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-lg-6 col-md-6">
+                            <div
+                                className="contact-boxarea d-flex align-items-center"
+                                style={{
+                                    minHeight: 110,
+                                    width: "100%",
+                                    background: "#fff",
+                                    borderRadius: 12,
+                                    boxShadow: "0 1px 8px rgba(0,0,0,0.04)",
+                                    padding: "24px 32px"
+                                }}
+                            >
+                                <div className="icons me-3">
+                                    <img src="/assets/img/icons/phn1.svg" alt="Phone" />
+                                </div>
+                                <div className="text">
+                                    <h5 style={{ marginBottom: 8 }}>CALL/MESSAGE</h5>
+                                    <Link href="tel:+917550277296">+91 75502 77296</Link>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-lg-6 col-md-6">
+                            <div
+                                className="contact-boxarea d-flex align-items-left "
+                                style={{
+                                    minHeight: 110,
+                                    width: "100%",
+                                    background: "#fff",
+                                    borderRadius: 12,
+                                    boxShadow: "0 1px 8px rgba(0,0,0,0.04)",
+                                    padding: "24px 32px"
+                                }}
+                            >
+                                <div className="icons me-3">
+                                    <img src="/assets/img/icons/location1.svg" alt="Location" />
+                                </div>
+                                <div className="text">
+                                    <h5 style={{ marginBottom: 8 }}>OUR LOCATION</h5>
+                                    <span>Chennai, Tamil Nadu, India</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-lg-6 col-md-6">
+                            <div
+                                className="contact-boxarea d-flex align-items-right"
+                                style={{
+                                    minHeight: 110,
+                                    width: "100%",
+                                    background: "#fff",
+                                    borderRadius: 12,
+                                    boxShadow: "0 1px 8px rgba(0,0,0,0.04)",
+                                    padding: "24px 32px"
+                                }}
+                            >
+                                <div className="icons me-3">
+                                    <img src="/assets/img/icons/instagram.svg" alt="Instagram" />
+                                </div>
+                                <div className="text">
+                                    <h5 style={{ marginBottom: 8 }}>INSTAGRAM</h5>
+                                    <Link href="https://instagram.com/dreamaura.events" target="_blank">
+                                        dreamaura.events
+                                    </Link>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div className="mapouter">
-                        <div className="gmap_canvas">
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3890.9791439397407!2d80.2209770750487!3d13.08268098724656!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5265d6e7e6e5e1%3A0x7e4e6e6e6e6e6e6e!2sChennai%2C%20Tamil%20Nadu%2C%20India!5e0!3m2!1sen!2sin!4v1704088968016!5m2!1sen!2sin" width={600} height={450} style={{ border: 0 }} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" />
+                    <div className="row justify-content-center mt-4">
+                        <div className="col-lg-10">
+                            <div style={{ borderRadius: 12, overflow: "hidden", boxShadow: "0 2px 12px rgba(0,0,0,0.08)" }}>
+                                <iframe
+                                    title="Chennai Location"
+                                    src="https://www.google.com/maps?q=Chennai,Tamil+Nadu,India&output=embed"
+                                    width="100%"
+                                    height="250"
+                                    style={{ border: 0, width: "100%" }}
+                                    allowFullScreen
+                                    loading="lazy"
+                                    referrerPolicy="no-referrer-when-downgrade"
+                                />
+                            </div>
                         </div>
                     </div>
                 </div>

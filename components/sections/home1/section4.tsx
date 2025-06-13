@@ -54,10 +54,11 @@ export default function Section4() {
                                     <div className="img1 image-anime">
                                         <img src="/assets/img/all-images/team/team-img1.png" alt="Event Planner" />
                                         <ul>
-                                            <li><Link href="https://facebook.com"><i className="fa-brands fa-facebook-f" /></Link></li>
-                                            <li><Link href="https://linkedin.com"><i className="fa-brands fa-linkedin-in" /></Link></li>
-                                            <li><Link href="https://instagram.com"><i className="fa-brands fa-instagram" /></Link></li>
-                                            <li><Link href="https://youtube.com"><i className="fa-brands fa-youtube" /></Link></li>
+                                            <li>
+                                                <Link href="https://instagram.com">
+                                                    <i className="fa-brands fa-instagram" />
+                                                </Link>
+                                            </li>
                                         </ul>
                                     </div>
                                     <div className="space20" />
@@ -71,10 +72,11 @@ export default function Section4() {
                                     <div className="img1 image-anime">
                                         <img src="/assets/img/all-images/team/team-img2.png" alt="Photographer" />
                                         <ul>
-                                            <li><Link href="https://facebook.com"><i className="fa-brands fa-facebook-f" /></Link></li>
-                                            <li><Link href="https://linkedin.com"><i className="fa-brands fa-linkedin-in" /></Link></li>
-                                            <li><Link href="https://instagram.com"><i className="fa-brands fa-instagram" /></Link></li>
-                                            <li><Link href="https://youtube.com"><i className="fa-brands fa-youtube" /></Link></li>
+                                            <li>
+                                                <Link href="https://instagram.com">
+                                                    <i className="fa-brands fa-instagram" />
+                                                </Link>
+                                            </li>
                                         </ul>
                                     </div>
                                     <div className="space20" />
@@ -88,10 +90,11 @@ export default function Section4() {
                                     <div className="img1 image-anime">
                                         <img src="/assets/img/all-images/team/team-img3.png" alt="Decorator" />
                                         <ul>
-                                            <li><Link href="https://facebook.com"><i className="fa-brands fa-facebook-f" /></Link></li>
-                                            <li><Link href="https://linkedin.com"><i className="fa-brands fa-linkedin-in" /></Link></li>
-                                            <li><Link href="https://instagram.com"><i className="fa-brands fa-instagram" /></Link></li>
-                                            <li><Link href="https://youtube.com"><i className="fa-brands fa-youtube" /></Link></li>
+                                            <li>
+                                                <Link href="https://instagram.com">
+                                                    <i className="fa-brands fa-instagram" />
+                                                </Link>
+                                            </li>
                                         </ul>
                                     </div>
                                     <div className="space20" />
