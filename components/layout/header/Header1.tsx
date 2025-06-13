@@ -1,6 +1,5 @@
 import Link from 'next/link'
 
-
 export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isSearch, handleSearch }: any) {
 	return (
 		<>
@@ -10,19 +9,22 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isSear
 						<div className="row">
 							<div className="col-lg-12">
 								<div className="header-elements">
+									{/* Logo */}
 									<div className="site-logo">
-  <Link href="/">
-    <span style={{
-      fontWeight: 900,
-      fontSize: 70,
-      fontFamily: "Arial, sans-serif",
-      color: "#fff",
-      letterSpacing: 1
-    }}>
-      Dream Aura Events
-    </span>
-  </Link>
-</div>
+										<Link href="/">
+											<span style={{
+												fontWeight: 900,
+												fontSize: 70,
+												fontFamily: "Arial, sans-serif",
+												color: "#fff",
+												letterSpacing: 1
+											}}>
+												Dream Aura Events
+											</span>
+										</Link>
+									</div>
+
+									{/* Menu */}
 									<div className="main-menu">
 										<ul>
 											<li>
@@ -36,10 +38,9 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isSear
 											</li>
 										</ul>
 									</div>
+
+									{/* Social Icons */}
 									<div className="btn-area">
-										<div className="search-icon header__search header-search-btn" onClick={handleSearch}>
-											<a><img src="/assets/img/icons/search1.svg" alt="" /></a>
-										</div>
 										<ul>
 											<li>
 												<Link href="#"><i className="fa-brands fa-facebook-f" /></Link>
@@ -55,23 +56,14 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isSear
 											</li>
 										</ul>
 									</div>
-									<div className={`header-search-form-wrapper ${isSearch ? 'open' : ''}`}>
-										<div className="tx-search-close tx-close" onClick={handleSearch}><i className="fa-solid fa-xmark" /></div>
-										<div className="header-search-container">
-											<form role="search" className="search-form">
-												<input type="search" className="search-field" placeholder="Search …" name="s" />
-												<button type="submit" className="search-submit"><img src="/assets/img/icons/search1.svg" alt="" /></button>
-											</form>
-										</div>
-									</div>
-									{isSearch && <div className="body-overlay active" onClick={handleSearch} />}
+
+									{/* Removed search icon and search form here */}
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
 			</header>
-
 		</>
 	)
 }

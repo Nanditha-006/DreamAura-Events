@@ -49,8 +49,8 @@ export default function Section8() {
                                 </div>
                                 <div className="text">
                                     <h5 style={{ marginBottom: 8 }}>GMAIL</h5>
-                                    <Link href="mailto:@dreamauraevents.com" style={{ wordBreak: "break-all" }}>
-                                        dreamauraevent@
+                                    <Link href="mailto:dreamauraevent@gmail.com" style={{ wordBreak: "break-all" }}>
+                                        dreamauraevent@gmail.com
                                     </Link>
                                 </div>
                             </div>

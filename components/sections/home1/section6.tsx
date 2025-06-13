@@ -40,7 +40,7 @@ export default function Section6() {
                             <div className="memory-header text-center heading2 space-margin60">
                                 <h5 data-aos="fade-left" data-aos-duration={800}>Cherished Memories</h5>
                                 <div className="space16" />
-                                <h2 className="text-anime-style-3">Unforgettable Events of 2024</h2>
+                                <h2 className="text-anime-style-3">Unforgettable Events of Dream Aura</h2>
                                 <p data-aos="fade-left" data-aos-duration={900}>
                                     Relive the magic of our most memorable events. From weddings to corporate galas, every moment is crafted with care and precision.
                                 </p>
@@ -62,22 +62,22 @@ export default function Section6() {
                                 </SwiperSlide>
                                 <SwiperSlide className="memory-boxarea">
                                     <div className="img1 image-anime">
-                                        <img src="/assets/img/all-images/memory/new-image2.png" alt="Product Launch" />
+                                        <img src="/assets/img/all-images/memory/new-image2.png" alt="House Warming" />
                                     </div>
                                     <div className="content-area">
                                         <img src="/assets/img/icons/logo1.svg" alt="Dream Aura Logo" className="logo1 keyframe5" />
                                         <div className="space18" />
-                                        <p>Product Launch</p>
+                                        <p>House Warming</p>
                                     </div>
                                 </SwiperSlide>
                                 <SwiperSlide className="memory-boxarea">
                                     <div className="img1 image-anime">
-                                        <img src="/assets/img/all-images/memory/new-image3.png" alt="Fashion Show" />
+                                        <img src="/assets/img/all-images/memory/new-image3.png" alt="Robo Fest" />
                                     </div>
                                     <div className="content-area">
                                         <img src="/assets/img/icons/logo1.svg" alt="Dream Aura Logo" className="logo1 keyframe5" />
                                         <div className="space18" />
-                                        <p>Fashion Show</p>
+                                        <p>Robo Fest</p>
                                     </div>
                                 </SwiperSlide>
                             </Swiper>

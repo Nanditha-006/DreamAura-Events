@@ -33,9 +33,9 @@ export default function Section4() {
                                                 <img src="/assets/img/icons/mail1.svg" alt="Email" />
                                             </div>
                                             <div className="text">
-                                                <h5>Our Email</h5>
+                                                <h5>Gmail</h5>
                                                 <div className="space14" />
-                                                <Link href="mailto:contact@dreamauraevents.com">contact@dreamauraevents.com</Link>
+                                                <Link href="mailto:dreamauraevent@gmail.com">dreamauraevent@gmail.com</Link>
                                             </div>
                                         </div>
                                         <div className="space18" />

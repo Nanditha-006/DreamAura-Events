@@ -15,55 +15,13 @@ export default function Header7({ scroll, isMobileMenu, handleMobileMenu, isSear
                                     <div className="main-menu">
                                         <ul>
                                             <li>
-                                                <Link href="/#">Home <i className="fa-solid fa-angle-down" /></Link>
-                                                <div className="tp-submenu">
-                                                    <div className="row">
-                                                        <div className="col-lg-12">
-                                                            <div className="all-images-menu">
-                                                                <div className="homemenu-thumb">
-                                                                    <div className="img1">
-                                                                        <img src="/assets/img/all-images/demo/demo-img1.png" alt="Homepage 1" />
-                                                                    </div>
-                                                                    <div className="homemenu-btn">
-                                                                        <Link className="vl-btn7" href="/">View Demo <span><i className="fa-solid fa-arrow-right" /></span></Link>
-                                                                    </div>
-                                                                    <div className="homemenu-text">
-                                                                        <Link href="/">Dream Aura - Homepage 01</Link>
-                                                                    </div>
-                                                                </div>
-                                                                {/* Add more homepage demos as needed */}
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </li>
-                                            <li><Link href="/about">About Us</Link></li>
-                                            <li>
-                                                <Link href="/#">Services <i className="fa-solid fa-angle-down" /></Link>
-                                                <ul className="dropdown-padding">
-                                                    <li><Link href="/services/event-planning">Event Planning</Link></li>
-                                                    <li><Link href="/services/photography">Photography</Link></li>
-                                                    <li><Link href="/services/catering">Catering</Link></li>
-                                                    <li><Link href="/services/decor">Decor & Design</Link></li>
-                                                    <li><Link href="/services/entertainment">Entertainment</Link></li>
-                                                </ul>
-                                            </li>
-                                            <li><Link href="/portfolio">Portfolio</Link></li>
-                                            <li>
-                                                <Link href="/#">Blogs <i className="fa-solid fa-angle-down" /></Link>
-                                                <ul className="dropdown-padding">
-                                                    <li><Link href="/blog">Our Blog</Link></li>
-                                                    <li><Link href="/blog-single">Blog Details</Link></li>
-                                                </ul>
+                                                <Link href="/">Home</Link>
                                             </li>
                                             <li>
-                                                <Link href="/#">Pages <i className="fa-solid fa-angle-down" /></Link>
-                                                <ul className="dropdown-padding">
-                                                    <li><Link href="/memories">Our Memories</Link></li>
-                                                    <li><Link href="/pricing-plan">Pricing Plan</Link></li>
-                                                    <li><Link href="/faq">FAQs</Link></li>
-                                                    <li><Link href="/contact">Contact Us</Link></li>
-                                                </ul>
+                                                <Link href="/gallery">Gallery</Link>
+                                            </li>
+                                            <li>
+                                                <Link href="/contact">Contact Us</Link>
                                             </li>
                                         </ul>
                                     </div>
