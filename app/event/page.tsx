@@ -238,11 +238,8 @@ export default function Event() {
                             <div className="row">
                                 <div className="col-lg-10 m-auto">
                                     <div className="cta1-main-boxarea">
-                                        <div className="timer-btn-area">
-                                            <Countdown />
-                                            <div className="btn-area1">
-                                                <Link href="/pricing-plan" className="vl-btn1">Book Now</Link>
-                                            </div>
+                                        <div className="btn-area1">
+                                            <Link href="/pricing-plan" className="vl-btn1">Book Now</Link>
                                         </div>
                                         <ul>
                                             <li>
@@ -264,11 +261,8 @@ export default function Event() {
                             <div className="row">
                                 <div className="col-lg-10 m-auto">
                                     <div className="cta1-main-boxarea">
-                                        <div className="timer-btn-area">
-                                            <Countdown />
-                                            <div className="btn-area1">
-                                                <Link href="/pricing-plan" className="vl-btn1">Book Now</Link>
-                                            </div>
+                                        <div className="btn-area1">
+                                            <Link href="/pricing-plan" className="vl-btn1">Book Now</Link>
                                         </div>
                                         <ul>
                                             <li>

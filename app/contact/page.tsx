@@ -108,7 +108,7 @@ export default function Contact() {
                                             </div>
                                         </div>
                                         <div className="col-lg-6 col-md-6">
-                                            <div className="space20 d-md-none d-block" />
+                                            <div className="space30 d-md-none d-block" />
                                             <div className="contact-boxarea" data-aos="zoom-in" data-aos-duration={1000}>
                                                 <div className="icons">
                                                     <img src="/assets/img/icons/phn1.svg" alt="" />
@@ -156,14 +156,7 @@ export default function Contact() {
                                                 <Link href="/pricing-plan" className="vl-btn1">Book Now</Link>
                                             </div>
                                         </div>
-                                        <ul>
-                                            <li>
-                                                <Link href="#"><img src="/assets/img/icons/calender1.svg" alt="" />30 January 2025 - 6pm to 11:30pm</Link>
-                                            </li>
-                                            <li className="m-0">
-                                                <Link href="#"><img src="/assets/img/icons/location1.svg" alt="" />Chennai, India</Link>
-                                            </li>
-                                        </ul>
+                                        {/* Removed calendar and location list */}
                                     </div>
                                 </div>
                             </div>
@@ -182,14 +175,7 @@ export default function Contact() {
                                                 <Link href="/pricing-plan" className="vl-btn1">Book Now</Link>
                                             </div>
                                         </div>
-                                        <ul>
-                                            <li>
-                                                <Link href="#"><img src="/assets/img/icons/calender1.svg" alt="" />30 January 2025 - 6pm to 11:30pm</Link>
-                                            </li>
-                                            <li className="m-0">
-                                                <Link href="#"><img src="/assets/img/icons/location1.svg" alt="" />Chennai, India</Link>
-                                            </li>
-                                        </ul>
+                                        {/* Removed calendar and location list */}
                                     </div>
                                 </div>
                             </div>
