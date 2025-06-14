@@ -30,7 +30,7 @@ export default function EventSchedule() {
                         </div>
                     </div>
 
-                    <div className="choose-section-area sp2">
+                    {/* <div className="choose-section-area sp2">
                         <div className="container">
                             <div className="row">
                                 <div className="col-lg-4 m-auto">
@@ -87,7 +87,7 @@ export default function EventSchedule() {
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
 
                     <div className="schedule-section-area sp10">
                         <div className="container">
@@ -137,6 +137,7 @@ export default function EventSchedule() {
                     </div>
 
                     {/* LIVE DATE & TIME DISPLAY */}
+                    {/* 
                     <div className="cta1-section-area d-lg-block d-block">
                         <div className="container">
                             <div className="row">
@@ -172,6 +173,7 @@ export default function EventSchedule() {
                             </div>
                         </div>
                     </div>
+                    */}
 
                 </div>
             </Layout>
