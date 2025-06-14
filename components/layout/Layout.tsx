@@ -84,7 +84,9 @@ export default function Layout({ headerStyle, footerStyle, breadcrumbTitle, chil
             />
             <MobileMenu isMobileMenu={isMobileMenu} handleMobileMenu={handleMobileMenu} />
             {children}
-            <FooterComponent />
+            <div style={{ background: "#f3eafd" }}>
+                <FooterComponent />
+            </div>
             <BackToTop target="#top" />
         </>
     )
