@@ -34,7 +34,7 @@ export default function Memories() {
                                     <div className="content-area">
                                         
                                         <div className="space12" />
-                                        <Link href="/event-single">Family Day</Link>
+                                        <Link href="/family">Family Day</Link>
                                     </div>
                                 </div>
                             </div>
@@ -47,7 +47,7 @@ export default function Memories() {
                                     <div className="content-area">
                                         <p></p>
                                         <div className="space12" />
-                                        <Link href="/event-single">Pre-Wedding Shoot</Link>
+                                        <Link href="/pre-wedding">Pre-Wedding Shoot</Link>
                                     </div>
                                 </div>
                             </div>
@@ -145,24 +145,7 @@ export default function Memories() {
                     </div>
                 </div>
 
-                {/* CTA SECTION */}
-                <div className="cta1-section-area">
-                    <div className="container">
-                        <div className="row">
-                            <div className="col-lg-10 m-auto">
-                                <div className="cta1-main-boxarea">
-                                    <div className="timer-btn-area">
-                                        {/* <Countdown /> */}
-                                        <div className="btn-area1">
-                                            <Link href="/pricing-plan" className="vl-btn1">Book Now</Link>
-                                        </div>
-                                    </div>
-                                    {/* Removed calendar and location list */}
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+              
 
             </div>
         </Layout>

@@ -90,11 +90,14 @@ export default function Contact() {
                                                 <div className="icons">
                                                     <img src="/assets/img/icons/mail1.svg" alt="" />
                                                 </div>
-                                                <div className="text">
-                                                    <h5>Our Email</h5>
-                                                    <div className="space14" />
-                                                    <Link href="mailto:Dreamauraevent@gmail.com">Dreamauraevent@gmail.com</Link>
-                                                </div>
+                                            <div className="text">
+  <h5>Our Email</h5>
+  <div className="space14" />
+  <Link href="mailto:Dreamauraevent@gmail.com" style={{ fontSize: "11px" }}>
+    Dreamauraevent@gmail.com
+  </Link>
+</div>
+
                                             </div>
                                             <div className="space18" />
                                             <div className="contact-boxarea" data-aos="zoom-in" data-aos-duration={1000}>
@@ -117,7 +120,7 @@ export default function Contact() {
                                                 <div className="text">
                                                     <h5>Call/Message</h5>
                                                     <div className="space14" />
-                                                    <Link href="tel:+917550277296">+91 75502 77296</Link>
+                                                    <Link href="tel:+917550277296" style={{ fontSize: "11px" }}>+91 75502 77296</Link>
                                                 </div>
                                             </div>
                                             <div className="space18" />

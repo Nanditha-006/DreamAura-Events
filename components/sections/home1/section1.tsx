@@ -25,7 +25,7 @@ export default function Section1() {
 
                                 <div style={{ height: 32 }} />
 
-                                <h3 style={{ fontWeight: 700, fontSize: 26, color: "#fff", marginBottom: 12 }}>
+                                {/* <h3 style={{ fontWeight: 700, fontSize: 26, color: "#fff", marginBottom: 12 }}>
                                     Now Accepting Bookings
                                 </h3>
 
@@ -36,7 +36,7 @@ export default function Section1() {
                                 <p style={{ fontWeight: 500, fontSize: 25, color: "#fff", lineHeight: 1.6 }}>
                                     From intimate gatherings to grand celebrations,<br />
                                     we design every event with heart, creativity, and precision.
-                                </p>
+                                </p> */}
                             </div>
                         </div>
                     </div>

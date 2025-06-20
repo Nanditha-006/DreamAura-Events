@@ -11,7 +11,9 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isSear
 								<div className="header-elements">
 									{/* Logo */}
 									<div className="site-logo">
-										<Link href="/">
+										<img src="/assets/img/logo/logo.png" alt="" /> 
+                                         
+										{/* <Link href="/">
 											<span style={{
 												fontWeight: 900,
 												fontSize: 70,
@@ -19,16 +21,16 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isSear
 												color: "#fff",
 												letterSpacing: 1
 											}}>
-												Dream Aura Events
+												DIE
 											</span>
-										</Link>
+										</Link> */}
 									</div>
 
 									{/* Menu */}
 									<div className="main-menu">
 										<ul>
 											<li>
-												<Link href="/">HOME</Link>
+												<Link href="/">Home</Link>
 											</li>
 											<li>
 												<Link href="/memories">Gallery</Link>
@@ -46,14 +48,10 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isSear
 												<Link href="#"><i className="fa-brands fa-facebook-f" /></Link>
 											</li>
 											<li>
-												<Link href="#"><i className="fa-brands fa-instagram" /></Link>
+												<Link href="https://www.instagram.com/dreamauraevents?igsh=MjNyeTl2dnA5ZHV1"><i className="fa-brands fa-instagram" /></Link>
 											</li>
-											<li>
-												<Link href="#"><i className="fa-brands fa-linkedin-in" /></Link>
-											</li>
-											<li>
-												<Link href="#" className="m-0"><i className="fa-brands fa-pinterest-p" /></Link>
-											</li>
+											
+											
 										</ul>
 									</div>
 

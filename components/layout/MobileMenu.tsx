@@ -16,7 +16,7 @@ export default function MobileMenu({ isMobileMenu, handleMobileMenu }: any) {
                     <div className="col-12">
                         <div className="mobile-header-elements">
                             <div className="mobile-logo">
-                                <Link href="/"><img src="/assets/img/logo/logo1.png" alt="Dream Aura Events Logo" /></Link>
+                                <Link href="/"><img src="/assets/img/logo/logo.png" alt="Dream Aura Events Logo" /></Link>
                             </div>
                             <div className="mobile-nav-icon dots-menu" onClick={handleMobileMenu}>
                                 <i className="fa-solid fa-bars-staggered" />
@@ -37,35 +37,16 @@ export default function MobileMenu({ isMobileMenu, handleMobileMenu }: any) {
                 <div className="mobile-nav mobile-nav1">
                     <ul className="mobile-nav-list nav-list1">
                         <li className="has-sub hash-has-sub">
-                            <span className={`submenu-button ${isAccordion == 1 ? "submenu-opened" : ""}`} onClick={() => handleAccordion(1)}><em /></span>
+                            {/* <span className={`submenu-button ${isAccordion == 1 ? "submenu-opened" : ""}`} onClick={() => handleAccordion(1)}><em /></span> */}
                             <Link href="/" className="hash-nav">Home</Link>
                         </li>
-                        <li className="hash-has-sub"><Link href="/about" className="hash-nav">About Us</Link></li>
-                        <li className="has-sub hash-has-sub">
-                            <span className={`submenu-button ${isAccordion == 2 ? "submenu-opened" : ""}`} onClick={() => handleAccordion(2)}><em /></span>
-                            <Link href="/services" className="hash-nav">Services</Link>
-                            <ul className={`sub-menu ${isAccordion == 2 ? "open-sub" : ""}`} style={{ display: `${isAccordion == 2 ? "block" : "none"}` }}>
-                                <li><Link href="/services/event-planning">Event Planning</Link></li>
-                                <li><Link href="/services/photography">Photography</Link></li>
-                                <li><Link href="/services/catering">Catering</Link></li>
-                                <li><Link href="/services/decor">Decor & Design</Link></li>
-                                <li><Link href="/services/entertainment">Entertainment</Link></li>
-                            </ul>
-                        </li>
-                        <li className="hash-has-sub"><Link href="/portfolio" className="hash-nav">Portfolio</Link></li>
-                        <li className="has-sub hash-has-sub">
-                            <span className={`submenu-button ${isAccordion == 3 ? "submenu-opened" : ""}`} onClick={() => handleAccordion(3)}><em /></span>
-                            <Link href="/blog" className="hash-nav">Blogs</Link>
-                            <ul className={`sub-menu ${isAccordion == 3 ? "open-sub" : ""}`} style={{ display: `${isAccordion == 3 ? "block" : "none"}` }}>
-                                <li><Link href="/blog">Our Blog</Link></li>
-                                <li><Link href="/blog-single">Blog Details</Link></li>
-                            </ul>
-                        </li>
+                    
+                     <li className="hash-has-sub"><Link href="/memories" className="hash-nav">Gallery</Link></li>
                         <li className="hash-has-sub"><Link href="/contact" className="hash-nav">Contact Us</Link></li>
                     </ul>
 
                     <div className="allmobilesection">
-                        <Link href="/contact" className="vl-btn1">Contact Now</Link>
+                       
                         <div className="single-footer">
                             <h3>Contact Info</h3>
                             <div className="footer1-contact-info">
@@ -82,7 +63,7 @@ export default function MobileMenu({ isMobileMenu, handleMobileMenu }: any) {
                                         <span><i className="fa-solid fa-envelope" /></span>
                                     </div>
                                     <div className="contact-info-text">
-                                        <Link href="mailto:Dreamauraevent@gmail.com">Dreamauraevent@gmail.com</Link>
+                                        <Link href="mailto:Dreamauraevent@gmail.com">dreamauraevent@gmail.com</Link>
                                     </div>
                                 </div>
                                 <div className="single-footer">
@@ -92,7 +73,8 @@ export default function MobileMenu({ isMobileMenu, handleMobileMenu }: any) {
                                             <span><i className="fa-solid fa-location-dot" /></span>
                                         </div>
                                         <div className="contact-info-text">
-                                            <p>Chennai, India</p>
+                                              <Link href="mailto:Dreamauraevent@gmail.com">Chennai, India</Link>
+                                            
                                         </div>
                                     </div>
                                 </div>
@@ -102,8 +84,7 @@ export default function MobileMenu({ isMobileMenu, handleMobileMenu }: any) {
                                         <ul>
                                             <li><Link href="https://facebook.com/dreamaura.events"><i className="fa-brands fa-facebook-f" /></Link></li>
                                             <li><Link href="https://instagram.com/dreamaura.events"><i className="fa-brands fa-instagram" /></Link></li>
-                                            <li><Link href="https://linkedin.com/company/dreamauraevents"><i className="fa-brands fa-linkedin-in" /></Link></li>
-                                            <li><Link href="https://youtube.com/dreamauraevents"><i className="fa-brands fa-youtube" /></Link></li>
+                                               
                                         </ul>
                                     </div>
                                 </div>
