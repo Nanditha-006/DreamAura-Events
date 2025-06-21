@@ -60,7 +60,7 @@ export default function Memories() {
                                     <div className="content-area">
                                         
                                         <div className="space12" />
-                                        <Link href="/event-single">Robotica 2024</Link>
+                                        <Link href="/robotica">Robotica 2024</Link>
                                     </div>
                                 </div>
                             </div>
@@ -73,7 +73,7 @@ export default function Memories() {
                                     <div className="content-area">
                                        
                                         <div className="space12" />
-                                        <Link href="/event-single">AVM Farewell Party</Link>
+                                        <Link href="/farewell">AVM Farewell Party</Link>
                                     </div>
                                 </div>
                             </div>
