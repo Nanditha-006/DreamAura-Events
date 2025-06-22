@@ -99,7 +99,7 @@ export default function Memories() {
                                     <div className="content-area">
                                         
                                         <div className="space12" />
-                                        <Link href="/annualday">Annual Day DAV</Link>
+                                        <Link href="/annual-day">Annual Day DAV</Link>
                                     </div>
                                 </div>
                             </div>

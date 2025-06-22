@@ -53,32 +53,13 @@ export default function Memories() {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-lg-4 col-md-6">
-                                <div className="memory3-boxarea">
-                                    <div className="img1">
-                                        <img src="/assets/img/all-images/culturals/img7.png" alt="memory" />
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-lg-4 col-md-6">
-                                <div className="memory3-boxarea">
-                                    <div className="img1">
-                                        <img src="/assets/img/all-images/culturals/img8.png" alt="memory" />
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-lg-4 col-md-6">
-                                <div className="memory3-boxarea">
-                                    <div className="img1">
-                                        <img src="/assets/img/all-images/culturals/img9.png" alt="memory" />
-                                    </div>
+                           
                                 </div>
                             </div>
                            
                                 </div>
                             </div>
-                        </div>
-                    </div>
+                       
                
         </Layout>
     )
