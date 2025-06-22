@@ -86,7 +86,7 @@ export default function Memories() {
                                     <div className="content-area">
                                         
                                         <div className="space12" />
-                                        <Link href="/event-single">Pre-Wedding Shoot</Link>
+                                        <Link href="/geodis-event">Geodis event</Link>
                                     </div>
                                 </div>
                             </div>
@@ -99,7 +99,7 @@ export default function Memories() {
                                     <div className="content-area">
                                         
                                         <div className="space12" />
-                                        <Link href="/event-single">Annual Day DAV</Link>
+                                        <Link href="/annualday">Annual Day DAV</Link>
                                     </div>
                                 </div>
                             </div>
@@ -112,7 +112,7 @@ export default function Memories() {
                                     <div className="content-area">
                                         
                                         <div className="space12" />
-                                        <Link href="/event-single">AVM Farewell Party</Link>
+                                        <Link href="/farewell">AVM Farewell Party</Link>
                                     </div>
                                 </div>
                             </div>
@@ -124,7 +124,7 @@ export default function Memories() {
                                     <div className="content-area">
                                         
                                         <div className="space12" />
-                                        <Link href="/event-single">Dakshin Chitra Event</Link>
+                                        <Link href="/dakshinchitra">Dakshin Chitra Event</Link>
                                     </div>
                                 </div>
                             </div>
@@ -137,7 +137,7 @@ export default function Memories() {
                                     <div className="content-area">
                                         
                                         <div className="space12" />
-                                        <Link href="/event-single">College Culturals 2024</Link>
+                                        <Link href="/college-culturals">College Culturals 2024</Link>
                                     </div>
                                 </div>
                             </div>
