@@ -14,63 +14,63 @@ export default function Memories() {
                             <div className="col-lg-4 col-md-6">
                                 <div className="memory3-boxarea">
                                     <div className="img1">
-                                        <img src="/assets/img/all-images/fare/img1.png" alt="memory" />
+                                        <img src="/assets/img/all-images/annualday/img1.png" alt="memory" />
                                     </div>
                                 </div>
                             </div>
                             <div className="col-lg-4 col-md-6">
                                 <div className="memory3-boxarea">
                                     <div className="img1">
-                                        <img src="/assets/img/all-images/fare/img2.png" alt="memory" />
+                                        <img src="/assets/img/all-images/annualday/img2.png" alt="memory" />
                                     </div>
                                 </div>
                             </div>
                             <div className="col-lg-4 col-md-6">
                                 <div className="memory3-boxarea">
                                     <div className="img1">
-                                        <img src="/assets/img/all-images/fare/img3.png" alt="memory" />
+                                        <img src="/assets/img/all-images/annualday/img3.png" alt="memory" />
                                     </div>
                                 </div>
                             </div>
                             <div className="col-lg-4 col-md-6">
                                 <div className="memory3-boxarea">
                                     <div className="img1">
-                                        <img src="/assets/img/all-images/fare/img4.png" alt="memory" />
+                                        <img src="/assets/img/all-images/annualday/img4.png" alt="memory" />
                                     </div>
                                 </div>
                             </div>
                             <div className="col-lg-4 col-md-6">
                                 <div className="memory3-boxarea">
                                     <div className="img1">
-                                        <img src="/assets/img/all-images/fare/img5.png" alt="memory" />
+                                        <img src="/assets/img/all-images/annualday/img5.png" alt="memory" />
                                     </div>
                                 </div>
                             </div>
                             <div className="col-lg-4 col-md-6">
                                 <div className="memory3-boxarea">
                                     <div className="img1">
-                                        <img src="/assets/img/all-images/fare/img6.png" alt="memory" />
+                                        <img src="/assets/img/all-images/annualday/img6.png" alt="memory" />
                                     </div>
                                 </div>
                             </div>
                             <div className="col-lg-4 col-md-6">
                                 <div className="memory3-boxarea">
                                     <div className="img1">
-                                        <img src="/assets/img/all-images/fare/img7.png" alt="memory" />
+                                        <img src="/assets/img/all-images/annualday/img7.png" alt="memory" />
                                     </div>
                                 </div>
                             </div>
                             <div className="col-lg-4 col-md-6">
                                 <div className="memory3-boxarea">
                                     <div className="img1">
-                                        <img src="/assets/img/all-images/fare/img8.png" alt="memory" />
+                                        <img src="/assets/img/all-images/annualday/img8.png" alt="memory" />
                                     </div>
                                 </div>
                             </div>
                             <div className="col-lg-4 col-md-6">
                                 <div className="memory3-boxarea">
                                     <div className="img1">
-                                        <img src="/assets/img/all-images/fare/img9.png" alt="memory" />
+                                        <img src="/assets/img/all-images/annualday/img9.png" alt="memory" />
                                     </div>
                                 </div>
                             </div>
