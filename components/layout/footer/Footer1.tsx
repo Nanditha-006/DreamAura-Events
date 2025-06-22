@@ -33,7 +33,34 @@ export default function Footer1() {
                                 </ul>
                             </div>
                         </div>
-
+                        {/* Services */}
+<div className="col-lg-4 col-md-6 mb-4 mb-lg-0">
+    <div className="link-content2" style={{ color: "#000" }}>
+        <h3 style={{ color: "#000", marginBottom: 20 }}>Our Services</h3>
+        <ul style={{ padding: 0, listStyle: "none", color: "#000" }}>
+            <li style={{ marginBottom: 12 }}>
+                <Link href="/services/catering" style={{ color: "#000", textDecoration: "none" }}>
+                    Catering
+                </Link>
+            </li>
+            <li style={{ marginBottom: 12 }}>
+                <Link href="/services/decor" style={{ color: "#000", textDecoration: "none" }}>
+                    Decor
+                </Link>
+            </li>
+            <li style={{ marginBottom: 12 }}>
+                <Link href="/services/photography" style={{ color: "#000", textDecoration: "none" }}>
+                    Photography
+                </Link>
+            </li>
+            <li style={{ marginBottom: 12 }}>
+                <Link href="/services/videography" style={{ color: "#000", textDecoration: "none" }}>
+                    Videography
+                </Link>
+            </li>
+        </ul>
+    </div>
+</div>
                         {/* Contact Us */}
                         <div className="col-lg-4 col-md-6 mb-4 mb-lg-0">
                             <div className="link-content2" style={{ color: "#000" }}>
