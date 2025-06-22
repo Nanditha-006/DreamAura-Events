@@ -22,7 +22,7 @@ export default function Footer1() {
                                         <Link href="https://facebook.com/dreamaura.events" target="_blank"><i className="fa-brands fa-facebook-f" style={{ color: "#000" }} /></Link>
                                     </li>
                                     <li>
-                                        <Link href="https://instagram.com/dreamaura.events" target="_blank"><i className="fa-brands fa-instagram" style={{ color: "#000" }} /></Link>
+                                        <Link href="https://www.instagram.com/dreamauraevents?igsh=MjNyeTl2dnA5ZHV1" target="_blank"><i className="fa-brands fa-instagram" style={{ color: "#000" }} /></Link>
                                     </li>
                                     <li>
                                         <Link href="https://linkedin.com/company/dreamauraevents" target="_blank"><i className="fa-brands fa-linkedin-in" style={{ color: "#000" }} /></Link>
@@ -81,7 +81,7 @@ export default function Footer1() {
                                                     style={{ width: "100%", borderRadius: 8, objectFit: "cover" }}
                                                 />
                                                 <div className="icons" style={{ position: "absolute", top: 8, right: 8 }}>
-                                                    <Link href="https://instagram.com/dreamaura.events" target="_blank">
+                                                    <Link href="https://www.instagram.com/dreamauraevents?igsh=MjNyeTl2dnA5ZHV1" target="_blank">
                                                         <i className="fa-brands fa-instagram" style={{ color: "#000" }} />
                                                     </Link>
                                                 </div>
