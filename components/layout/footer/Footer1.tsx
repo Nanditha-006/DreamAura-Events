@@ -16,6 +16,7 @@ export default function Footer1() {
                                         src="/assets/img/logo/logo2.png"
                                         alt="Dream Aura Events Logo"
                                         style={{ maxWidth: "100%", height: "auto", marginBottom: 16, cursor: "pointer" }}
+                                        loading="lazy"
                                     />
                                 </Link>
                                 <p style={{ color: "#000", marginBottom: 16, marginTop: 0 }}>
@@ -104,6 +105,7 @@ export default function Footer1() {
                                                         src={`/assets/img/all-images/footer/footer-img${num}.png`}
                                                         alt={`Event Gallery ${num}`}
                                                         style={{ width: "100%", borderRadius: 8, objectFit: "cover" }}
+                                                        loading="lazy"
                                                     />
                                                     <div className="icons" style={{ position: "absolute", top: 8, right: 8 }}>
                                                         <Link href="https://www.instagram.com/dreamauraevents?igsh=MjNyeTl2dnA5ZHV1" target="_blank">

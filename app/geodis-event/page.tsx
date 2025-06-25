@@ -80,6 +80,7 @@ export default function Footer1() {
                                         src={`/assets/img/all-images/footer/footer-img${num}.png`}
                                         alt={`Gallery ${num}`}
                                         style={{ width: '100%', borderRadius: 6, objectFit: 'cover' }}
+                                        loading="lazy"
                                     />
                                     <div style={{ position: 'absolute', top: 4, right: 4 }}>
                                         <Link href="https://www.instagram.com/dreamauraevents" target="_blank">

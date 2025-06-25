@@ -29,7 +29,7 @@ export default function Memories() {
                             <div className="col-lg-4 col-md-6">
                                 <div className="memory3-boxarea">
                                     <div className="img1">
-                                        <img src="/assets/img/all-images/memory/memory-img4.png" alt="memory" />
+                                        <img src="/assets/img/all-images/memory/memory-img4.png" alt="memory" loading="lazy" />
                                     </div>
                                     <div className="content-area">
                                         
@@ -42,7 +42,7 @@ export default function Memories() {
                             <div className="col-lg-4 col-md-6">
                                 <div className="memory3-boxarea">
                                     <div className="img1">
-                                        <img src="/assets/img/all-images/memory/memory-img5.png" alt="memory" />
+                                        <img src="/assets/img/all-images/memory/memory-img5.png" alt="memory" loading="lazy" />
                                     </div>
                                     <div className="content-area">
                                         <p></p>
@@ -55,7 +55,7 @@ export default function Memories() {
                             <div className="col-lg-4 col-md-6">
                                 <div className="memory3-boxarea">
                                     <div className="img1">
-                                        <img src="/assets/img/all-images/memory/memory-img6.png" alt="memory" />
+                                        <img src="/assets/img/all-images/memory/memory-img6.png" alt="memory" loading="lazy" />
                                     </div>
                                     <div className="content-area">
                                         
@@ -68,7 +68,7 @@ export default function Memories() {
                             <div className="col-lg-4 col-md-6">
                                 <div className="memory3-boxarea">
                                     <div className="img1">
-                                        <img src="/assets/img/all-images/memory/memory-img7.png" alt="memory" />
+                                        <img src="/assets/img/all-images/memory/memory-img7.png" alt="memory" loading="lazy" />
                                     </div>
                                     <div className="content-area">
                                        
@@ -81,7 +81,7 @@ export default function Memories() {
                             <div className="col-lg-4 col-md-6">
                                 <div className="memory3-boxarea">
                                     <div className="img1">
-                                        <img src="/assets/img/all-images/memory/memory-img8.png" alt="memory" />
+                                        <img src="/assets/img/all-images/memory/memory-img8.png" alt="memory" loading="lazy" />
                                     </div>
                                     <div className="content-area">
                                         
@@ -94,7 +94,7 @@ export default function Memories() {
                             <div className="col-lg-4 col-md-6">
                                 <div className="memory3-boxarea">
                                     <div className="img1">
-                                        <img src="/assets/img/all-images/memory/memory-img9.png" alt="memory" />
+                                        <img src="/assets/img/all-images/memory/memory-img9.png" alt="memory" loading="lazy" />
                                     </div>
                                     <div className="content-area">
                                         
@@ -107,7 +107,7 @@ export default function Memories() {
                             <div className="col-lg-4 col-md-6">
                                 <div className="memory3-boxarea">
                                     <div className="img1">
-                                        <img src="/assets/img/all-images/memory/memory-img10.png" alt="memory" />
+                                        <img src="/assets/img/all-images/memory/memory-img10.png" alt="memory" loading="lazy" />
                                     </div>
                                     <div className="content-area">
                                         
@@ -119,7 +119,7 @@ export default function Memories() {
                              <div className="col-lg-4 col-md-6">
                                 <div className="memory3-boxarea">
                                     <div className="img1">
-                                        <img src="/assets/img/all-images/memory/memory-img1.png" alt="memory" />
+                                        <img src="/assets/img/all-images/memory/memory-img1.png" alt="memory" loading="lazy" />
                                     </div>
                                     <div className="content-area">
                                         
@@ -132,7 +132,7 @@ export default function Memories() {
                             <div className="col-lg-4 col-md-6">
                                 <div className="memory3-boxarea">
                                     <div className="img1">
-                                        <img src="/assets/img/all-images/memory/memory-img11.png" alt="memory" />
+                                        <img src="/assets/img/all-images/memory/memory-img11.png" alt="memory" loading="lazy" />
                                     </div>
                                     <div className="content-area">
                                         
