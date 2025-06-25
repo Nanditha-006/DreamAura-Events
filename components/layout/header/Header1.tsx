@@ -11,19 +11,13 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isSear
 								<div className="header-elements">
 									{/* Logo */}
 									<div className="site-logo">
-										<img src="/assets/img/logo/logo.png" alt="" /> 
-                                         
-										{/* <Link href="/">
-											<span style={{
-												fontWeight: 900,
-												fontSize: 70,
-												fontFamily: "Arial, sans-serif",
-												color: "#fff",
-												letterSpacing: 1
-											}}>
-												DIE
-											</span>
-										</Link> */}
+										<Link href="/">
+											<img
+												src="/assets/img/logo/logo2.png"
+												alt="Dream Aura Events Logo"
+												style={{ maxHeight: 48, width: "auto", display: "block" }}
+											/>
+										</Link>
 									</div>
 
 									{/* Menu */}

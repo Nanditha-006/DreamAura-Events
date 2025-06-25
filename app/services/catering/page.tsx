@@ -4,102 +4,67 @@ import Header from "@/components/layout/header/Header1";
 import Footer1 from "@/components/layout/footer/Footer1";
 import Link from "next/link";
 
-export default function PhotographyPage() {
-  return (
-    <>
-      <Head>
-        <link
-          rel="stylesheet"
-          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
-          integrity="sha512-9usAa10I+Br5D+eAG5unFBSuHfCr0D1F5GZ5Y03jH2G9e4KLwckH5Y2HxC1OdAd9hZ9xZgksUJ+QvGgPi2dZ1w=="
-          crossOrigin="anonymous"
-          referrerPolicy="no-referrer"
-        />
-      </Head>
 
-      <div style={{ backgroundColor: "#000" }}>
-        <Header />
-      </div>
+export default function CateringPage() {
+    return (
+        <>
+            <Header />
+            <div style={{ padding: '60px 20px', maxWidth: '1200px', margin: '0 auto' }}>
+                {/* Heading */}
+                <h1 style={{ textAlign: 'center', marginBottom: 24 }}>Catering Services</h1>
+                <p style={{ fontSize: '16px', lineHeight: '1.8', textAlign: 'center', marginBottom: 40 }}>
+                    At <strong>Dream Aura Events</strong>, food is more than just a meal—it’s a celebration of culture, emotion, and memory. Our catering team curates unforgettable menus that delight every guest and suit every occasion.
+                </p>
 
-      <div
-        style={{
-          padding: "60px 20px",
-          paddingTop: "100px",
-          maxWidth: "1200px",
-          margin: "0 auto",
-          fontFamily: "'Poppins', Arial, sans-serif",
-          color: "#333",
-        }}
-      >
-        <h1 style={{ textAlign: "center", marginBottom: 24, fontSize: 28, fontWeight: "bold", textTransform: "uppercase" }}>
-          Photography Services
-        </h1>
+                {/* Section: Cuisine Options */}
+                <h2 style={{ marginTop: 40, marginBottom: 16 }}>🍽️ Cuisines We Offer</h2>
+                <ul style={{ fontSize: '16px', lineHeight: '1.8', paddingLeft: 20 }}>
+                    <li><strong>South Indian:</strong> Authentic banana leaf spreads, tiffin counters, traditional sweets</li>
+                    <li><strong>North Indian:</strong> Royal thalis, chaat counters, Mughlai specialties</li>
+                    <li><strong>Continental:</strong> Pasta, salads, baked dishes and live grill stations</li>
+                    <li><strong>Fusion & Themed:</strong> Indo-Chinese, mocktail bars, regional specials with a twist</li>
+                </ul>
 
-        <p style={{ fontSize: "16px", lineHeight: "1.8", textAlign: "center", marginBottom: 40 }}>
-          At <strong>Dream Aura Events</strong>, we don’t just capture moments—we preserve memories.
-          Our professional photographers document emotions, energy, and elegance with artistic precision,
-          turning fleeting moments into timeless treasures.
-        </p>
+                {/* Section: Importance of Good Catering */}
+                <h2 style={{ marginTop: 40, marginBottom: 16 }}>🎯 Why Catering is Crucial</h2>
+                <p style={{ fontSize: '16px', lineHeight: '1.8' }}>
+                    Great food brings people together. Our chefs focus on taste, hygiene, presentation, and dietary preferences. From welcome drinks to dessert counters, we ensure your guests enjoy a five-star experience at your event.
+                </p>
 
-        <h2 style={{ marginTop: 40, marginBottom: 16, fontSize: 18, fontWeight: "bold", textTransform: "uppercase" }}>
-          📸 What We Capture
-        </h2>
-        <ul style={{ fontSize: "16px", lineHeight: "1.8", paddingLeft: 20 }}>
-          <li><strong>Candid Photography:</strong> Pure, unscripted emotions caught in real-time</li>
-          <li><strong>Traditional Photography:</strong> Posed photos, rituals, and full event coverage</li>
-          <li><strong>Pre-wedding & Couple Shoots:</strong> Creative, location-based storytelling</li>
-          <li><strong>Birthday & Corporate Events:</strong> Highlight reels and coverage with flair</li>
-        </ul>
+                {/* Section: Dream Aura’s Signature Experience */}
+                <h2 style={{ marginTop: 40, marginBottom: 16 }}>💫 A Taste That Lasts Forever</h2>
+                <p style={{ fontSize: '16px', lineHeight: '1.8' }}>
+                    What sets us apart is our attention to personalization. Want a live dosa station with a cartoon chef for kids? A curated vegan menu? Or a mocktail bar that matches your theme? We’ll make it happen with flair and flavor.
+                </p>
 
-        <h2 style={{ marginTop: 40, marginBottom: 16, fontSize: 18, fontWeight: "bold", textTransform: "uppercase" }}>
-          🎯 Why Professional Photography Is Important
-        </h2>
-        <p style={{ fontSize: "16px", lineHeight: "1.8" }}>
-          Photographs are lasting keepsakes. With the right lens, lighting, and eye for detail,
-          our team ensures every shot tells a story—be it the sparkle of your entry,
-          the laughter of loved ones, or the grandeur of your décor.
-        </p>
+                {/* Images */}
+                <div style={{ display: 'flex', justifyContent: 'center', flexWrap: 'wrap', gap: 20, marginTop: 40 }}>
+                    <img src="/assets/img/all-images/catering/img1.png" alt="catering" style={{ width: '300px', borderRadius: 12 }} />
+                    <img src="/assets/img/all-images/catering/img2.png" alt="catering" style={{ width: '300px', borderRadius: 12 }} />
+                    <img src="/assets/img/all-images/catering/img3.png" alt="catering" style={{ width: '300px', borderRadius: 12 }} />
+                </div>
 
-        <h2 style={{ marginTop: 40, marginBottom: 16, fontSize: 18, fontWeight: "bold", textTransform: "uppercase" }}>
-          💫 Capturing More Than Just Images
-        </h2>
-        <p style={{ fontSize: "16px", lineHeight: "1.8" }}>
-          Our photographers work with an editorial eye and a cinematic feel.
-          Whether it's a slow-motion twirl on the dance floor or a quiet smile exchanged across the mandap—
-          we capture the invisible magic others miss. We deliver not just photos,
-          but a visual legacy of your celebration.
-        </p>
-
-        <div style={{ display: "flex", justifyContent: "center", flexWrap: "wrap", gap: 20, marginTop: 40 }}>
-          <img src="/assets/img/all-images/photography/img1.png" alt="photography" style={{ width: "300px", borderRadius: 12 }} />
-          <img src="/assets/img/all-images/photography/img2.png" alt="photography" style={{ width: "300px", borderRadius: 12 }} />
-          <img src="/assets/img/all-images/photography/img3.png" alt="photography" style={{ width: "300px", borderRadius: 12 }} />
-        </div>
-
-        <div style={{ textAlign: "center", marginTop: 60 }}>
-          <h3 style={{ fontSize: 18, fontWeight: "bold", textTransform: "uppercase" }}>Let us capture your magic!</h3>
-          <p style={{ fontSize: "16px" }}>
-            Book our photography team today and treasure your event forever through our lens.
-          </p>
-          <Link
-            href="/contact"
-            style={{
-              backgroundColor: "#000",
-              color: "#fff",
-              padding: "10px 24px",
-              borderRadius: 6,
-              display: "inline-block",
-              marginTop: 16,
-              textDecoration: "none",
-              fontFamily: "'Poppins', Arial, sans-serif"
-            }}
-          >
-            Contact Us
-          </Link>
-        </div>
-      </div>
-
-      <Footer1 />
-    </>
-  );
+                {/* CTA */}
+                <div style={{ textAlign: 'center', marginTop: 60 }}>
+                    <h3>Let’s serve up smiles together!</h3>
+                    <p>Book our catering team today and let your guests remember your event by its deliciousness.</p>
+                    <a
+                        href="/contact"
+                        style={{
+                            backgroundColor: '#000',
+                            color: '#fff',
+                            padding: '10px 24px',
+                            borderRadius: 6,
+                            display: 'inline-block',
+                            marginTop: 16,
+                            textDecoration: 'none'
+                        }}
+                    >
+                        Contact Us
+                    </a>
+                </div>
+            </div>
+            <Footer1 />
+        </>
+    )
 }

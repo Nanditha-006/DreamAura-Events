@@ -10,26 +10,27 @@ export default function Footer1() {
                         {/* Logo & About */}
                         <div className="col-lg-4 col-md-6 mb-4 mb-lg-0">
                             <div className="footer-logo-area" style={{ paddingTop: '0px', marginTop: '-40px', overflow: 'visible', color: "#000" }}>
-                                <img
-                                    src="/assets/img/logo/logo2.png"
-                                    alt="Dream Aura Events Logo"
-                                    style={{ maxWidth: "100%", height: "auto", marginBottom: 16 }}
-                                />
+                                {/* Make logo clickable to go to home */}
+                                <Link href="/">
+                                    <img
+                                        src="/assets/img/logo/logo2.png"
+                                        alt="Dream Aura Events Logo"
+                                        style={{ maxWidth: "100%", height: "auto", marginBottom: 16, cursor: "pointer" }}
+                                    />
+                                </Link>
                                 <p style={{ color: "#000", marginBottom: 16, marginTop: 0 }}>
                                     At Dream Aura Events, we create magical celebrations—weddings, birthdays, anniversaries, and more. Let us turn your dreams into unforgettable memories.
                                 </p>
                                 <ul style={{ display: "flex", gap: 12, padding: 0, listStyle: "none", margin: 0 }}>
                                     <li>
-                                        <Link href="https://facebook.com/dreamaura.events" target="_blank"><i className="fa-brands fa-facebook-f" style={{ color: "#000" }} /></Link>
+                                        <Link href="https://facebook.com/dreamaura.events" target="_blank">
+                                            <i className="fa-brands fa-facebook-f" style={{ color: "#000" }} />
+                                        </Link>
                                     </li>
                                     <li>
-                                        <Link href="https://www.instagram.com/dreamauraevents?igsh=MjNyeTl2dnA5ZHV1" target="_blank"><i className="fa-brands fa-instagram" style={{ color: "#000" }} /></Link>
-                                    </li>
-                                    <li>
-                                        <Link href="https://linkedin.com/company/dreamauraevents" target="_blank"><i className="fa-brands fa-linkedin-in" style={{ color: "#000" }} /></Link>
-                                    </li>
-                                    <li>
-                                        <Link href="https://pinterest.com/dreamauraevents" target="_blank" className="m-0"><i className="fa-brands fa-pinterest-p" style={{ color: "#000" }} /></Link>
+                                        <Link href="https://www.instagram.com/dreamauraevents?igsh=MjNyeTl2dnA5ZHV1" target="_blank">
+                                            <i className="fa-brands fa-instagram" style={{ color: "#000" }} />
+                                        </Link>
                                     </li>
                                 </ul>
                             </div>
