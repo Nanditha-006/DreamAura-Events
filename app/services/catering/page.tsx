@@ -11,13 +11,17 @@ export default function CateringPage() {
             <Header />
             <div style={{ padding: '60px 20px', maxWidth: '1200px', margin: '0 auto' }}>
                 {/* Heading */}
-                <h1 style={{ textAlign: 'center', marginBottom: 24 }}>Catering Services</h1>
+                <h1 style={{ textAlign: 'center', marginBottom: 24, textTransform: "uppercase", fontWeight: "bold", fontSize: 28 }}>
+                    Catering Services
+                </h1>
                 <p style={{ fontSize: '16px', lineHeight: '1.8', textAlign: 'center', marginBottom: 40 }}>
                     At <strong>Dream Aura Events</strong>, food is more than just a meal—it’s a celebration of culture, emotion, and memory. Our catering team curates unforgettable menus that delight every guest and suit every occasion.
                 </p>
 
                 {/* Section: Cuisine Options */}
-                <h2 style={{ marginTop: 40, marginBottom: 16 }}>🍽️ Cuisines We Offer</h2>
+                <h2 style={{ marginTop: 40, marginBottom: 16, textTransform: "uppercase", fontWeight: "bold", fontSize: 18 }}>
+                    🍽️ Cuisines We Offer
+                </h2>
                 <ul style={{ fontSize: '16px', lineHeight: '1.8', paddingLeft: 20 }}>
                     <li><strong>South Indian:</strong> Authentic banana leaf spreads, tiffin counters, traditional sweets</li>
                     <li><strong>North Indian:</strong> Royal thalis, chaat counters, Mughlai specialties</li>
@@ -26,13 +30,17 @@ export default function CateringPage() {
                 </ul>
 
                 {/* Section: Importance of Good Catering */}
-                <h2 style={{ marginTop: 40, marginBottom: 16 }}>🎯 Why Catering is Crucial</h2>
+                <h2 style={{ marginTop: 40, marginBottom: 16, textTransform: "uppercase", fontWeight: "bold", fontSize: 18 }}>
+                    🎯 Why Catering is Crucial
+                </h2>
                 <p style={{ fontSize: '16px', lineHeight: '1.8' }}>
                     Great food brings people together. Our chefs focus on taste, hygiene, presentation, and dietary preferences. From welcome drinks to dessert counters, we ensure your guests enjoy a five-star experience at your event.
                 </p>
 
                 {/* Section: Dream Aura’s Signature Experience */}
-                <h2 style={{ marginTop: 40, marginBottom: 16 }}>💫 A Taste That Lasts Forever</h2>
+                <h2 style={{ marginTop: 40, marginBottom: 16, textTransform: "uppercase", fontWeight: "bold", fontSize: 18 }}>
+                    💫 A Taste That Lasts Forever
+                </h2>
                 <p style={{ fontSize: '16px', lineHeight: '1.8' }}>
                     What sets us apart is our attention to personalization. Want a live dosa station with a cartoon chef for kids? A curated vegan menu? Or a mocktail bar that matches your theme? We’ll make it happen with flair and flavor.
                 </p>
@@ -46,7 +54,9 @@ export default function CateringPage() {
 
                 {/* CTA */}
                 <div style={{ textAlign: 'center', marginTop: 60 }}>
-                    <h3>Let’s serve up smiles together!</h3>
+                    <h3 style={{ textTransform: "uppercase", fontWeight: "bold", fontSize: 18 }}>
+                        Let’s serve up smiles together!
+                    </h3>
                     <p>Book our catering team today and let your guests remember your event by its deliciousness.</p>
                     <a
                         href="/contact"

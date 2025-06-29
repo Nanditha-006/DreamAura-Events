@@ -31,7 +31,7 @@ export default function DecorPage() {
           color: "#333",
         }}
       >
-        <h1 style={{ textAlign: "center", marginBottom: 24, fontSize: 28, fontWeight: "bold" }}>
+        <h1 style={{ textAlign: "center", marginBottom: 24, fontSize: 28, fontWeight: "bold", textTransform: "uppercase" }}>
           Event Decoration Services
         </h1>
 
@@ -40,7 +40,7 @@ export default function DecorPage() {
           From concept to execution, our team crafts immersive atmospheres that reflect your unique story and elevate every moment.
         </p>
 
-        <h2 style={{ marginTop: 40, marginBottom: 16, fontSize: 18, fontWeight: "bold" }}>
+        <h2 style={{ marginTop: 40, marginBottom: 16, fontSize: 18, fontWeight: "bold", textTransform: "uppercase" }}>
           🌿 Types of Decoration We Offer
         </h2>
         <ul style={{ fontSize: "16px", lineHeight: "1.8", paddingLeft: 20 }}>
@@ -50,7 +50,7 @@ export default function DecorPage() {
           <li><strong>Traditional & Cultural Functions:</strong> Authentic elements with modern design fusion</li>
         </ul>
 
-        <h2 style={{ marginTop: 40, marginBottom: 16, fontSize: 18, fontWeight: "bold" }}>
+        <h2 style={{ marginTop: 40, marginBottom: 16, fontSize: 18, fontWeight: "bold", textTransform: "uppercase" }}>
           🎯 Why Decoration Matters
         </h2>
         <p style={{ fontSize: "16px", lineHeight: "1.8" }}>
@@ -58,7 +58,7 @@ export default function DecorPage() {
           It guides your guests’ attention, creates photographic memories, and defines your event’s personality.
         </p>
 
-        <h2 style={{ marginTop: 40, marginBottom: 16, fontSize: 18, fontWeight: "bold" }}>
+        <h2 style={{ marginTop: 40, marginBottom: 16, fontSize: 18, fontWeight: "bold", textTransform: "uppercase" }}>
           💫 Reimagining Expectations
         </h2>
         <p style={{ fontSize: "16px", lineHeight: "1.8" }}>
@@ -74,7 +74,9 @@ export default function DecorPage() {
         </div>
 
         <div style={{ textAlign: "center", marginTop: 60 }}>
-          <h3 style={{ fontSize: 18, fontWeight: "bold" }}>Ready to turn your dream into reality?</h3>
+          <h3 style={{ fontSize: 18, fontWeight: "bold", textTransform: "uppercase" }}>
+            Ready to turn your dream into reality?
+          </h3>
           <p>Let Dream Aura Events design a space that speaks your soul.</p>
           <Link
             href="/contact"

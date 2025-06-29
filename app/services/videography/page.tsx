@@ -34,7 +34,7 @@ export default function VideographyPage() {
         }}
       >
         {/* Heading */}
-        <h1 style={{ textAlign: "center", marginBottom: 24, fontSize: 28, fontWeight: "bold" }}>
+        <h1 style={{ textAlign: "center", marginBottom: 24, fontSize: 28, fontWeight: "bold", textTransform: "uppercase" }}>
           Videography Services
         </h1>
 
@@ -52,7 +52,7 @@ export default function VideographyPage() {
         </p>
 
         {/* What We Offer */}
-        <h2 style={{ marginTop: 40, marginBottom: 16, fontSize: 18, fontWeight: "bold" }}>
+        <h2 style={{ marginTop: 40, marginBottom: 16, fontSize: 18, fontWeight: "bold", textTransform: "uppercase" }}>
           🎥 Our Videography Includes
         </h2>
         <ul style={{ fontSize: "16px", lineHeight: "1.8", paddingLeft: 20 }}>
@@ -63,7 +63,7 @@ export default function VideographyPage() {
         </ul>
 
         {/* Why It Matters */}
-        <h2 style={{ marginTop: 40, marginBottom: 16, fontSize: 18, fontWeight: "bold" }}>
+        <h2 style={{ marginTop: 40, marginBottom: 16, fontSize: 18, fontWeight: "bold", textTransform: "uppercase" }}>
           🎯 Why It Matters
         </h2>
         <p style={{ fontSize: "16px", lineHeight: "1.8" }}>
@@ -73,7 +73,7 @@ export default function VideographyPage() {
         </p>
 
         {/* Signature Edge */}
-        <h2 style={{ marginTop: 40, marginBottom: 16, fontSize: 18, fontWeight: "bold" }}>
+        <h2 style={{ marginTop: 40, marginBottom: 16, fontSize: 18, fontWeight: "bold", textTransform: "uppercase" }}>
           💫 Your Story, Cinematically Told
         </h2>
         <p style={{ fontSize: "16px", lineHeight: "1.8" }}>
@@ -91,7 +91,7 @@ export default function VideographyPage() {
 
         {/* CTA */}
         <div style={{ textAlign: 'center', marginTop: 60 }}>
-          <h3 style={{ fontSize: 18, fontWeight: "bold" }}>
+          <h3 style={{ fontSize: 18, fontWeight: "bold", textTransform: "uppercase" }}>
             Let’s make your story unforgettable!
           </h3>
           <p>Get in touch to book our videography team and relive your day, frame by frame.</p>
